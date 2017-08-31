@@ -1,10 +1,10 @@
 name := "monad-examples"
 
-scalaVersion := "2.11.7"
+scalaVersion := "2.11.8"
 
 version := "0.1-SNAPSHOT"
 
 libraryDependencies ++= Seq(
-  "org.scalatest" %% "scalatest"    % "2.2.6" % "test" 
+  "org.scalatest" %% "scalatest"    % "3.0.1" % "test" 
 )
 

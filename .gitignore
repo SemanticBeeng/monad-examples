@@ -3,3 +3,6 @@
 
 # if you're using IntelliJ, this will store metadata for the IDE
 .idea
+
+project/.boot/
+project/.ivy/

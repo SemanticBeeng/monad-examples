@@ -1,5 +1,7 @@
 package me.krobinson.monads
 
+import scala.language.higherKinds
+
 
 sealed trait Free[F[_], A] { self =>
   def flatMap[B](fn: A => Free[F, B]): Free[F, B] =
